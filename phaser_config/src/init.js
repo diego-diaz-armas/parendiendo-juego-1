@@ -25,7 +25,14 @@ this .bird2 = this.add.image(550,50,"bird2");
    this.bird.setScale(1);
    this.bird.flipX=true;//lo rota
    this.bird2.setScale(1);
-   this.bird2.flipX=false;//lo rota
+   this.bird2.flipX=false;//lo rota para el otro lado
+   //con esto elegimos el punto de rotacion en laimagen
+   this.bird2.setOrigin(0.5,0.5);//en el parentecis se pasan los parametro de la img x,y y van hasta 1
+   //(1,1)seria la esquina naranja de el pajaro
+   //(0,0)seria la esquia azul
+   //(0.5,0.5)seria el centro
+   //(0,1)rota en el punto verde
+   //(1,0)rota en el puto rojo
  
 }
 function update(time,delta){
