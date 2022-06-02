@@ -12,7 +12,7 @@ const config={
 var game =new Phaser.Game(config);
 
 function preload(){
-console.log("soy preload");
+console.log("soy preload 1");
 //en preolad se renderizan las imagenes
     this.load.image("bird","/assets/bird.png");
     this.load.image("bird2","/assets/bird_dos.png");
